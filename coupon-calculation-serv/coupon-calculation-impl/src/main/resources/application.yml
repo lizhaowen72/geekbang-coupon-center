@@ -1,0 +1,19 @@
+#项目的启动窗口
+server:
+  port: 20001
+
+spring:
+  application:
+    name: coupon-calculation-serv
+
+logging:
+  level:
+    com.geekbang.coupon: debug
+
+# 开启所有management端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+

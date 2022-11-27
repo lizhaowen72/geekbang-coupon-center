@@ -1,0 +1,9 @@
+# Project exclude paths
+/coupon-calculation-serv/coupon-calculation-api/target/
+/coupon-calculation-serv/coupon-calculation-impl/target/
+/coupon-customer-serv/coupon-customer-api/target/
+/coupon-customer-serv/coupon-customer-dao/target/
+/coupon-customer-serv/coupon-customer-impl/target/
+/coupon-template-serv/coupon-template-api/target/
+/coupon-template-serv/coupon-template-dao/target/
+/coupon-template-serv/coupon-template-impl/target/

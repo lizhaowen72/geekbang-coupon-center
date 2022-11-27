@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/coupon-template-serv/pom.xml" />
+        <option value="$PROJECT_DIR$/coupon-template-serv/coupon-template-api/pom.xml" />
+        <option value="$PROJECT_DIR$/coupon-template-serv/coupon-template-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/coupon-template-serv/coupon-template-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/coupon-calculation-serv/pom.xml" />
+        <option value="$PROJECT_DIR$/coupon-customer-serv/pom.xml" />
+        <option value="$PROJECT_DIR$/middleware/pom.xml" />
+        <option value="$PROJECT_DIR$/coupon-calculation-serv/coupon-calculation-api/pom.xml" />
+        <option value="$PROJECT_DIR$/coupon-calculation-serv/coupon-calculation-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/coupon-customer-serv/coupon-customer-api/pom.xml" />
+        <option value="$PROJECT_DIR$/coupon-customer-serv/coupon-customer-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/coupon-customer-serv/coupon-customer-impl/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
