@@ -28,6 +28,20 @@ spring:
       hibernate.format_sql: true
       hibernate.show_sql: true
     open-in-view: false
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848,localhost:8948
+        service: conpon-template-serv
+        heart-beat-interval: 5000
+        heart-beat-timeout: 20000
+        metadata:
+          mydata: abc
+        naming-load-cache-at-start: false
+        namespace: dev
+        cluster-name: Cluster-A
+        group: myGroup
+        register-enabled: true
 
   logging:
     level:

@@ -6,6 +6,8 @@ server:
 spring:
   application:
     name: coupon-customer-serv
+  main:
+    allow-bean-definition-overriding: true
   datasource:
     username: root
     password:
@@ -28,6 +30,24 @@ spring:
       hibernate.show_sql: true
       hibernate.format_sql: true
     open-in-view: false
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848,localhost:8948
+        service: coupon-customer-serv
+        heart-beat-interval: 5000
+        heart-beat-timeout: 20000
+        metadata:
+          mydata: abc
+        naming-load-cache-at-start: false
+        cluster-name: Cluster-A
+        namespace: dev
+        group: myGroup
+        register-enabled: true
+        watch:
+          enabled: true
+        watch-delay: 30000
+
 
 
 logging:

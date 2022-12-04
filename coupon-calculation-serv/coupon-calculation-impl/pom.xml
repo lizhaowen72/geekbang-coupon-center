@@ -25,11 +25,6 @@
         </dependency>
         <dependency>
             <groupId>com.geekbang</groupId>
-            <artifactId>coupon-customer-dao</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.geekbang</groupId>
             <artifactId>coupon-calculation-api</artifactId>
             <version>${project.version}</version>
         </dependency>

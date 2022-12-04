@@ -5,6 +5,25 @@ server:
 spring:
   application:
     name: coupon-calculation-serv
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848,localhost:8948
+        service: coupon-calculation-serv
+        heart-beat-interval: 5000
+        heart-beat-timeout: 20000
+        metadata:
+          mydata: abc
+        naming-load-cache-at-start: false
+        cluster-name: Cluster-A
+        namespace: dev
+        group: myGroup
+        register-enabled: true
+        watch:
+          enabled: true
+        watch-delay: 30000
 
 logging:
   level:
